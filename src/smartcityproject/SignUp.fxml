@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="555.0" prefWidth="895.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="smartcityproject.SignUpController">
+   <children>
+      <ImageView fitHeight="556.0" fitWidth="565.0" layoutX="356.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Login1.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="459.0" layoutY="42.0" prefHeight="31.0" prefWidth="181.0" text="Enter User name" textFill="#f9fffe">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="460.0" layoutY="233.0" prefHeight="31.0" prefWidth="181.0" text="Enter Password" textFill="#f9fffe">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="461.0" layoutY="279.0" prefHeight="31.0" prefWidth="181.0" text="Confirm Password" textFill="#f9fffe">
+         <font>
+            <Font name="System Bold" size="20.5" />
+         </font>
+      </Label>
+      <PasswordField fx:id="EnterPassword" layoutX="691.0" layoutY="232.0" prefHeight="31.0" prefWidth="193.0" />
+      <PasswordField fx:id="ConfirmPassword" layoutX="692.0" layoutY="279.0" prefHeight="31.0" prefWidth="193.0" />
+      <TextField fx:id="username" layoutX="688.0" layoutY="42.0" prefHeight="31.0" prefWidth="193.0" />
+      <Button fx:id="RegisterNow" layoutX="583.0" layoutY="333.0" mnemonicParsing="false" onAction="#RegisterNowAction" prefHeight="31.0" prefWidth="181.0" text="Register Now" textFill="#1500ff">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="Login" layoutX="558.0" layoutY="383.0" mnemonicParsing="false" onAction="#LoginAction" prefHeight="25.0" prefWidth="229.0" text="I have account/Login" textFill="#0400ff">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="458.0" layoutY="90.0" prefHeight="31.0" prefWidth="181.0" text="Enter NID " textFill="#f9fffe">
+         <font>
+            <Font name="System Bold" size="20.5" />
+         </font>
+      </Label>
+      <TextField fx:id="NID" layoutX="688.0" layoutY="90.0" prefHeight="31.0" prefWidth="193.0" />
+      <Label layoutX="459.0" layoutY="141.0" prefHeight="31.0" prefWidth="181.0" text="Enter Age " textFill="#f9fffe">
+         <font>
+            <Font name="System Bold" size="20.5" />
+         </font>
+      </Label>
+      <TextField fx:id="Age" layoutX="688.0" layoutY="139.0" prefHeight="31.0" prefWidth="193.0" />
+      <Label layoutX="460.0" layoutY="188.0" prefHeight="31.0" prefWidth="181.0" text="Income/1yr" textFill="#f9fffe">
+         <font>
+            <Font name="System Bold" size="20.5" />
+         </font>
+      </Label>
+      <TextField fx:id="income" layoutX="689.0" layoutY="186.0" prefHeight="31.0" prefWidth="193.0" />
+      <ImageView fitHeight="556.0" fitWidth="573.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@signup.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

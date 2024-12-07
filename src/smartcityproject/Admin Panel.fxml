@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="644.0" prefWidth="886.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="smartcityproject.AdminPanelController">
+   <children>
+      <ImageView fitHeight="478.0" fitWidth="886.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@SmartCity6.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="back" layoutX="758.0" layoutY="592.0" mnemonicParsing="false" onAction="#backAction" prefHeight="32.0" prefWidth="102.0" style="-fx-background-color: #0000ff; -fx-background-radius: 30;" text="Back" textFill="#fdffff">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Pane prefHeight="181.0" prefWidth="886.0" style="-fx-background-color: #ffcc99; -fx-background-color: #6699ff;">
+         <children>
+            <Button fx:id="Hotel" layoutX="16.0" layoutY="29.0" mnemonicParsing="false" onAction="#HotelAction" prefHeight="32.0" prefWidth="145.0" style="-fx-background-color: #e67300; -fx-background-radius: 50;" text="Add Hotel" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <TextField fx:id="add_hotel" layoutX="199.0" layoutY="32.0" prefHeight="32.0" prefWidth="209.0" />
+            <Button fx:id="Company" layoutX="14.0" layoutY="108.0" mnemonicParsing="false" onAction="#CompanyAction" prefHeight="32.0" prefWidth="145.0" style="-fx-background-color: #e67300; -fx-background-radius: 50;" text="Add Compay" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <TextField fx:id="add_company" layoutX="199.0" layoutY="110.0" prefHeight="32.0" prefWidth="209.0" />
+            <Button fx:id="Library" layoutX="468.0" layoutY="32.0" mnemonicParsing="false" onAction="#LibraryAction" prefHeight="32.0" prefWidth="145.0" style="-fx-background-color: #e67300; -fx-background-radius: 50;" text="Add Library" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <TextField fx:id="add_library" layoutX="653.0" layoutY="32.0" prefHeight="32.0" prefWidth="209.0" />
+            <Button fx:id="Fedaration" layoutX="468.0" layoutY="108.0" mnemonicParsing="false" onAction="#FedarationAction" prefHeight="32.0" prefWidth="145.0" style="-fx-background-color: #e67300; -fx-background-radius: 50;" text="Add Fedaration" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <TextField fx:id="add_fedaration" layoutX="653.0" layoutY="110.0" prefHeight="32.0" prefWidth="209.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

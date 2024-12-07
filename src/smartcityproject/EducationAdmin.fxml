@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="558.0" prefWidth="1197.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <ImageView fitHeight="505.0" fitWidth="735.0" layoutX="-7.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Edu3.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutY="494.0" prefHeight="64.0" prefWidth="728.0" style="-fx-background-color: #063F03;" />
+      <Pane layoutX="728.0" prefHeight="558.0" prefWidth="469.0" style="-fx-background-color: #063F03;">
+         <children>
+            <TextField fx:id="TxtKeyWords" layoutX="195.0" layoutY="24.0" prefHeight="36.0" prefWidth="242.0" />
+            <Label layoutX="14.0" layoutY="90.0" prefHeight="36.0" prefWidth="162.0" style="-fx-background-color: #e33434; -fx-background-radius: 50;" text="    Library Name" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="163.0" prefHeight="36.0" prefWidth="162.0" style="-fx-background-color: #e33434; -fx-background-radius: 50;" text="  Upcoming Books" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="237.0" prefHeight="36.0" prefWidth="162.0" style="-fx-background-color: #e33434; -fx-background-radius: 50;" text=" Book of the Month" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="12.0" layoutY="313.0" prefHeight="36.0" prefWidth="162.0" style="-fx-background-color: #e33434; -fx-background-radius: 50;" text="        Location" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="386.0" prefHeight="36.0" prefWidth="162.0" style="-fx-background-color: #e33434; -fx-background-radius: 50;" text="        Website" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <TextField fx:id="TxtKeyWords1" layoutX="195.0" layoutY="90.0" prefHeight="36.0" prefWidth="242.0" />
+            <TextField fx:id="TxtKeyWords2" layoutX="195.0" layoutY="163.0" prefHeight="36.0" prefWidth="242.0" />
+            <TextField fx:id="TxtKeyWords3" layoutX="195.0" layoutY="237.0" prefHeight="36.0" prefWidth="242.0" />
+            <TextField fx:id="TxtKeyWords4" layoutX="195.0" layoutY="313.0" prefHeight="36.0" prefWidth="242.0" />
+            <TextField fx:id="TxtKeyWords5" layoutX="195.0" layoutY="388.0" prefHeight="36.0" prefWidth="242.0" />
+            <Button fx:id="Btn_Update" layoutX="184.0" layoutY="469.0" mnemonicParsing="false" onAction="#Btn_UpdateAction" prefHeight="36.0" prefWidth="169.0" style="-fx-background-color: #065ba1; -fx-background-radius: 50;" text="UPDATE" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Label layoutX="740.0" layoutY="25.0" prefHeight="36.0" prefWidth="162.0" style="-fx-background-color: #e33434; -fx-background-radius: 50;" text="        KeY Word" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="Login" layoutX="14.0" layoutY="10.0" mnemonicParsing="false" onAction="#LoginAction" prefHeight="30.0" prefWidth="98.0" style="-fx-background-color: #e33434; -fx-background-radius: 50;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

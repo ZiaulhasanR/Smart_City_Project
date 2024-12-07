@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="724.0" prefWidth="1093.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="smartcityproject.Show_jobseekerController">
+   <children>
+      <Pane layoutY="-2.0" prefHeight="110.0" prefWidth="1101.0" style="-fx-background-color: #719feb;">
+         <children>
+            <Label layoutX="277.0" layoutY="26.0" prefHeight="58.0" prefWidth="547.0" text="JOBSEEKERS INFORMATION" textFill="#dfff00">
+               <font>
+                  <Font name="System Bold" size="40.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fitHeight="619.0" fitWidth="1182.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@showjob.jpg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="jobseekerstable" layoutX="13.0" layoutY="135.0" opacity="0.7" prefHeight="563.0" prefWidth="1074.0">
+         <columns>
+            <TableColumn fx:id="col_companyname" prefWidth="250.0" text="Company name" />
+            <TableColumn fx:id="col_ajob" prefWidth="206.0" text="Available rank" />
+            <TableColumn fx:id="col_availablepost" prefWidth="205.0" text="Available post" />
+            <TableColumn fx:id="col_location" prefWidth="217.0" text="Location" />
+            <TableColumn fx:id="col_wsite" minWidth="5.0" prefWidth="196.0" text="Website name" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
